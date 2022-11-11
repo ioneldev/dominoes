@@ -1,0 +1,31 @@
+== REQUIREMENT ==
+
+Here are the rules of the game:
+- It's played by a minimum of 2 players and a max of 4
+- 28 domino pieces are laid upside down randomly
+- Each piece is divided in half and has two sets of dots in each half. Each set can have 0 to 6 dots.
+- Each player picks 7 pieces.
+- The player with the bigger double starts
+- After the first piece, they go in turns placing pieces that match the same number of dots. If they don't have one, they pick another piece from the table.
+- The game ends when a player runs out of pieces or there are no more pieces that match and no more pieces left on the table
+- If both players still have pieces in the end, the winner is the one with the least total dots. These are calculated by adding the dots from all the pieces in the player's hand.
+
+Feel free to start with the basics and add rules according to the time you have left. Don't get lost in detail.
+You can take any approach you wish, but it would be helpful for us to see your use of modern Perl techniques.
+
+
+== HOW TO RUN ==
+
+If you don't have it, install cpan or cpanm. 
+Then, install inc::Module::Install
+
+After, run perl Makefile.PL. It will ask you if you want to install dependencies in case you don't have them.
+Run, make
+Run, make install
+Run, make test
+
+Run the script with. perl -I lib dominoes.pl --number_of_players 2
+
+If you want to enable the verbose mode, add --verbose 1 to the script start up
+
+
